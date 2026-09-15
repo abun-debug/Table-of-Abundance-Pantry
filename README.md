@@ -1,4 +1,4 @@
-[index (19).html](https://github.com/user-attachments/files/32263069/index.19.html)
+[index (20).html](https://github.com/user-attachments/files/32263456/index.20.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -630,9 +630,13 @@
 
     <div class="signup-panel" id="volunteer">
       <div class="signup-photo" role="img" aria-label="Volunteers smiling while packing fresh produce and pantry staples into boxes"></div>
-      <form class="signup-form" id="volunteer-form" action="mailto:abun@pantryabtble.org" method="post" enctype="text/plain">
+      <form class="signup-form" id="volunteer-form" action="https://formsubmit.co/abun@pantryabtble.org" method="POST">
         <h3>Volunteer enrollment</h3>
-        <p class="lead">Tell us a bit about yourself and we'll follow up with next steps. This opens in your email app, addressed to our team.</p>
+        <p class="lead">Tell us a bit about yourself and we'll follow up with next steps. Your enrollment is sent straight to our team.</p>
+        <input type="hidden" name="_subject" value="New Table of Abundance volunteer enrollment">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
         <div class="form-row">
           <div class="form-field">
             <label for="v-name">Full name</label>
