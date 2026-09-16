@@ -1,4 +1,4 @@
-[index (20).html](https://github.com/user-attachments/files/32263456/index.20.html)
+[index (24).html](https://github.com/user-attachments/files/32290101/index.24.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -436,7 +436,7 @@
   <div class="wrap hero-inner">
     <p class="hero-eyebrow">A food pantry serving New Orleans and the surrounding area</p>
     <h1>A table set for every family across New Orleans and the surrounding area</h1>
-    <p class="tagline">Our table represents provision. Everyone is welcome to receive support with dignity, compassion, and respect, without being made to feel small.</p>
+    <p class="tagline">Table of Abundance provides consistent, dignified food access to families across New Orleans and the surrounding area, with no judgment and no barriers to entry.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="#donate">Donate now</a>
       <a class="btn btn-ghost" href="#volunteer">Sign up to volunteer</a>
@@ -472,13 +472,17 @@
     </div>
     <div>
       <p class="kicker">Our story</p>
-      <h2>A table where everyone is welcome to come and fill up.</h2>
+      <h2>Provision for every household we serve.</h2>
       <p class="measure">New Orleans has always fed people well, but not everyone in it gets fed well or often enough. Table of Abundance began with neighbors, congregants, and volunteers who saw the gap between the city's abundance and the households going without. The organization was incorporated in Louisiana on January 23, 2026, and later received recognition from the IRS as a 501(c)(3) public charity.</p>
-      <p class="measure">Our table represents provision. It's a place where everyone is welcome to come and fill up what they need, no matter who you are or where you're coming from. We believe this is a cry for our community to come together and serve one another, the way a family gathers around a table that never runs empty.</p>
+      <p class="measure">Table of Abundance exists to close the gap between the food our community has and the food that reaches families who need it. Every household is welcome, regardless of circumstance. We believe meeting that need takes the whole community working together, not one organization acting alone.</p>
       <p class="measure">We're a faith-based pantry, but our table is open to everyone. Serving New Orleans and the surrounding area means showing up for the whole community. We have adopted governing bylaws and developed a launch plan for a pantry designed to serve up to 100 households per distribution, sourced through community donations and retail and grower relationships.</p>
       <div class="callout">
         <h3>Our mission</h3>
-        <p>Our mission is to provide consistent and dignified access to nutritious food for individuals and families throughout New Orleans and surrounding communities. Rooted in faith and powered by volunteers and community partnerships, Table of Abundance seeks to reflect God's heart of provision by welcoming, serving, and strengthening everyone who comes to the table.</p>
+        <p>Our mission is to operate a pantry ministry that reflects God's heart of provision by creating a table where individuals and families in need are welcomed, cared for, and restored. Through the Table of Abundance Pantry, we serve with compassion and intention, offering nourishment, dignity, and encouragement in seasons of hardship. We exist to be a place of refuge and renewal, strengthening our community by caring for both body and spirit and reminding every person they are seen, valued, and not alone.</p>
+      </div>
+      <div class="callout" style="margin-top:20px;">
+        <h3>Our vision</h3>
+        <p>To create a welcoming table where individuals and families are nourished, restored, and empowered, spiritually, emotionally, and practically, so they may walk in wholeness, fulfillment, and purpose. We envision a community where no one lacks food, support, healing, or hope, and where all people have access to the tools and faith-based guidance needed to rebuild their lives and strengthen their relationship with God.</p>
       </div>
     </div>
   </div>
@@ -500,18 +504,18 @@
     <div class="stat-grid">
       <div class="stat-item">
         <div class="stat-num">1 in 5</div>
-        <p>New Orleanians are food insecure, about 70,000 people, according to the New Orleans Health Department.</p>
+        <p>New Orleanians are food insecure, including about one in three children, per New Orleans Health Department data (April 2026).</p>
       </div>
       <div class="stat-item">
-        <div class="stat-num">1 in 3</div>
-        <p>New Orleans children face food insecurity, nearly double the national child rate, per city health officials.</p>
+        <div class="stat-num">10,600+</div>
+        <p>Older adults in Orleans Parish are food insecure. The New Orleans metro area has the highest rate of senior food insecurity of any metro area in the nation, per the 2024 New Orleans Council on Aging report.</p>
       </div>
       <div class="stat-item">
-        <div class="stat-num stat-num-sm">Highest in the U.S.</div>
-        <p>Louisiana has the nation's highest rate of senior food insecurity, according to the Louisiana Legislature.</p>
+        <div class="stat-num">65%</div>
+        <p>Of income-eligible Orleans Parish families are enrolled in SNAP, leaving many households with no safety net beyond community organizations.</p>
       </div>
     </div>
-    <p class="stat-source">Sources: New Orleans Health Department (nola.gov); Verite News, "Nearly one in five New Orleanians ... are food insecure," 2026; Louisiana Legislature, House Concurrent Resolution 36 (2024).</p>
+    <p class="stat-source">Sources: New Orleans Health Department (April 2026 report); New Orleans Council on Aging (2024 report).</p>
     <p class="measure" style="margin-top:28px;">Table of Abundance exists to bridge that gap directly, and to build up the community in the process. Every distribution day is one more table set for a neighbor who needs it.</p>
 
     <div class="donate-panel" id="donate">
@@ -521,7 +525,7 @@
       </div>
       <div class="donate-actions">
         <a class="btn btn-primary" href="mailto:abun@pantryabtble.org?subject=I%27d%20like%20to%20donate">Donate now</a>
-        <p class="donate-note">Table of Abundance is an IRS-recognized 501(c)(3) nonprofit organization. Contributions are tax-deductible to the extent permitted by law. Donors receive an acknowledgment for eligible charitable contributions. Online giving is coming soon; for now, email or call 504-396-2900.</p>
+        <p class="donate-note">Table of Abundance is an IRS-recognized 501(c)(3) nonprofit organization, EIN 41-3787887. Contributions are tax-deductible to the extent permitted by law. Donors receive an acknowledgment for eligible charitable contributions. Online giving is coming soon; for now, email or call 504-396-2900.</p>
       </div>
     </div>
   </div>
@@ -683,12 +687,12 @@
     <h2>Guided by people invested in this city</h2>
     <div class="leaders">
       <div class="leader">
-        <div class="role">Executive Vice President, Secretary, and Treasurer</div>
+        <div class="role">President and Director</div>
         <h4>Sister Tameka Young</h4>
         <p>Co-founder of Table of Abundance and CEO of MOR Logistics &amp; Environmental Services, bringing operational and logistics experience to the pantry's founding leadership.</p>
       </div>
       <div class="leader">
-        <div class="role">Distribution Program Oversight</div>
+        <div class="role">Vice President and Operations Director</div>
         <h4>First Lady Lerner Jackson</h4>
         <p>Supports the development of pantry operations and the volunteer teams preparing for distribution days.</p>
       </div>
@@ -722,7 +726,7 @@
     <div>
       <p class="kicker">Sign up</p>
       <h2 style="font-size:1.4rem;">Volunteer or committee interest</h2>
-      <p class="measure">Use the enrollment form above, or email or call us with your name, what you're interested in, a distribution shift or a standing committee, and the days you're available.</p>
+      <p class="measure">Use the enrollment form above, or email or call us with your name, what you're interested in (a distribution shift or a standing committee), and the days you're available.</p>
       <a class="btn btn-dark" href="#volunteer">Go to enrollment form</a>
     </div>
   </div>
