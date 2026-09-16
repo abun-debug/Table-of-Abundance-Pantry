@@ -400,6 +400,7 @@
   footer .wrap{display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px;}
   footer a{color:#EAD9AE; text-decoration:none;}
 </style>
+<script src="https://www.paypal.com/sdk/js?client-id=BAAxybyDvd7VEUIqtp4B1i4d3Vn-wPIRQx_AMgQQxUAMDVpcP96yPHb2KHEnoUrnbGsl2ENszPdRGnZXO0&components=hosted-buttons,buttons&enable-funding=venmo&currency=USD"></script>
 </head>
 <body>
 
@@ -552,8 +553,13 @@
         <p>Table of Abundance relies on charitable contributions, grants, community partnerships, in-kind donations, and volunteer support. No fees are charged to the people we serve. Your support helps us purchase and source food, safely store supplies, support pantry operations, and distribute groceries to our neighbors.</p>
       </div>
       <div class="donate-actions">
-        <a class="btn btn-primary" href="mailto:abun@pantryabtble.org?subject=I%27d%20like%20to%20donate">Donate now</a>
-        <p class="donate-note">Table of Abundance is an IRS-recognized 501(c)(3) nonprofit organization, EIN 41-3787887. Contributions are tax-deductible to the extent permitted by law. Donors receive an acknowledgment for eligible charitable contributions. Online giving is coming soon; for now, email or call 504-396-2900.</p>
+        <div id="paypal-container-donate" class="paypal-btn-container"></div>
+        <script>
+          paypal.HostedButtons({
+            hostedButtonId: "MACFSHE5BFBQE",
+          }).render("#paypal-container-donate");
+        </script>
+        <p class="donate-note">Table of Abundance is an IRS-recognized 501(c)(3) nonprofit organization, EIN 41-3787887. Contributions are tax-deductible to the extent permitted by law. Donors receive an acknowledgment for eligible charitable contributions. Prefer to give another way? Email or call 504-396-2900.</p>
       </div>
     </div>
 
@@ -570,7 +576,25 @@
             <li>Business name listed on the Table of Abundance website</li>
             <li>Recognition in social media posts thanking our sponsors</li>
           </ul>
-          <a class="btn btn-dark" href="mailto:abun@pantryabtble.org?subject=Bronze%20Sponsorship%20Inquiry">Become a Bronze sponsor</a>
+          <div id="paypal-container-bronze-sponsor" class="paypal-btn-container"></div>
+          <script>
+            paypal.Buttons({
+              style: { layout: "horizontal", color: "gold", shape: "rect", label: "pay", height: 40 },
+              createOrder: function(data, actions) {
+                return actions.order.create({
+                  purchase_units: [{
+                    description: "Bronze Sponsorship - Table of Abundance",
+                    amount: { value: "250.00", currency_code: "USD" }
+                  }]
+                });
+              },
+              onApprove: function(data, actions) {
+                return actions.order.capture().then(function(details) {
+                  alert("Thank you for becoming a Bronze sponsor! A confirmation has been sent to " + details.payer.email_address + ".");
+                });
+              }
+            }).render("#paypal-container-bronze-sponsor");
+          </script>
         </div>
         <div class="sponsor-card">
           <div class="sponsor-tier">Silver Sponsor</div>
@@ -579,7 +603,25 @@
             <li>Business name listed on the Table of Abundance website</li>
             <li>Recognition in social media posts and email updates</li>
           </ul>
-          <a class="btn btn-dark" href="mailto:abun@pantryabtble.org?subject=Silver%20Sponsorship%20Inquiry">Become a Silver sponsor</a>
+          <div id="paypal-container-silver-sponsor" class="paypal-btn-container"></div>
+          <script>
+            paypal.Buttons({
+              style: { layout: "horizontal", color: "gold", shape: "rect", label: "pay", height: 40 },
+              createOrder: function(data, actions) {
+                return actions.order.create({
+                  purchase_units: [{
+                    description: "Silver Sponsorship - Table of Abundance",
+                    amount: { value: "500.00", currency_code: "USD" }
+                  }]
+                });
+              },
+              onApprove: function(data, actions) {
+                return actions.order.capture().then(function(details) {
+                  alert("Thank you for becoming a Silver sponsor! A confirmation has been sent to " + details.payer.email_address + ".");
+                });
+              }
+            }).render("#paypal-container-silver-sponsor");
+          </script>
         </div>
         <div class="sponsor-card sponsor-featured">
           <div class="sponsor-tier">Gold Sponsor</div>
@@ -589,7 +631,25 @@
             <li>Recognition in social media posts and email updates</li>
             <li>Signage recognition at distribution days</li>
           </ul>
-          <a class="btn btn-primary" href="mailto:abun@pantryabtble.org?subject=Gold%20Sponsorship%20Inquiry">Become a Gold sponsor</a>
+          <div id="paypal-container-gold-sponsor" class="paypal-btn-container"></div>
+          <script>
+            paypal.Buttons({
+              style: { layout: "horizontal", color: "gold", shape: "rect", label: "pay", height: 40 },
+              createOrder: function(data, actions) {
+                return actions.order.create({
+                  purchase_units: [{
+                    description: "Gold Sponsorship - Table of Abundance",
+                    amount: { value: "1000.00", currency_code: "USD" }
+                  }]
+                });
+              },
+              onApprove: function(data, actions) {
+                return actions.order.capture().then(function(details) {
+                  alert("Thank you for becoming a Gold sponsor! A confirmation has been sent to " + details.payer.email_address + ".");
+                });
+              }
+            }).render("#paypal-container-gold-sponsor");
+          </script>
         </div>
         <div class="sponsor-card">
           <div class="sponsor-tier">Platinum Sponsor</div>
@@ -600,7 +660,25 @@
             <li>Signage recognition at distribution days</li>
             <li>Invitation to volunteer alongside our team at a distribution day</li>
           </ul>
-          <a class="btn btn-dark" href="mailto:abun@pantryabtble.org?subject=Platinum%20Sponsorship%20Inquiry">Become a Platinum sponsor</a>
+          <div id="paypal-container-platinum-sponsor" class="paypal-btn-container"></div>
+          <script>
+            paypal.Buttons({
+              style: { layout: "horizontal", color: "gold", shape: "rect", label: "pay", height: 40 },
+              createOrder: function(data, actions) {
+                return actions.order.create({
+                  purchase_units: [{
+                    description: "Platinum Sponsorship - Table of Abundance",
+                    amount: { value: "2500.00", currency_code: "USD" }
+                  }]
+                });
+              },
+              onApprove: function(data, actions) {
+                return actions.order.capture().then(function(details) {
+                  alert("Thank you for becoming a Platinum sponsor! A confirmation has been sent to " + details.payer.email_address + ".");
+                });
+              }
+            }).render("#paypal-container-platinum-sponsor");
+          </script>
         </div>
       </div>
       <p class="sponsor-note">Prefer to give in-kind, through goods, services, or a recurring commitment rather than a one-time gift? Email abun@pantryabtble.org or call 504-396-2900 and we'll work out a sponsorship that fits.</p>
